@@ -1,0 +1,483 @@
+{
+    "menu" : {
+        "id": 1,
+        "name": "main menu",
+        "key": "main_menu",
+        "parent_id": null,
+        "created_at": "2022-11-29 08:43:04",
+        "updated_at": "2022-11-29 08:43:04",
+        "nav_menu_items": [
+          {
+            "id": 5,
+            "label": "home2",
+            "sort": 1,
+            "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+            "menuable_id": 1,
+            "parent_id": null,
+            "menu_id": 1,
+            "created_at": "2022-11-29 08:43:16",
+            "updated_at": "2022-11-29 08:43:16",
+            "children": [
+              
+            ],
+            "menuable": {
+              "id": 1,
+              "slug": "home",
+              "url": "http://127.0.0.1:8000/home"
+            }
+          },
+          {
+            "id": 6,
+            "label": "about us",
+            "sort": 2,
+            "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+            "menuable_id": 14,
+            "parent_id": null,
+            "menu_id": 1,
+            "created_at": "2022-11-29 08:43:16",
+            "updated_at": "2022-11-29 08:43:16",
+            "children": [
+              {
+                "id": 7,
+                "label": "who we are",
+                "sort": 1,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 17,
+                "parent_id": 6,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:16",
+                "updated_at": "2022-11-29 08:43:16",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 17,
+                  "slug": null,
+                  "url": null
+                }
+              },
+              {
+                "id": 8,
+                "label": "quick facts",
+                "sort": 2,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 18,
+                "parent_id": 6,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:16",
+                "updated_at": "2022-11-29 08:43:16",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 18,
+                  "slug": null,
+                  "url": null
+                }
+              },
+              {
+                "id": 10,
+                "label": "facilities",
+                "sort": 2,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 15,
+                "parent_id": 6,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:16",
+                "updated_at": "2022-11-29 08:43:16",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 15,
+                  "slug": null,
+                  "url": null
+                }
+              },
+              {
+                "id": 9,
+                "label": "our staff",
+                "sort": 3,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 3,
+                "parent_id": 6,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:16",
+                "updated_at": "2022-11-29 08:43:16",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 3,
+                  "slug": "about-us/our-team",
+                  "url": "http://127.0.0.1:8000/about-us/our-team"
+                }
+              }
+            ],
+            "menuable": {
+              "id": 14,
+              "slug": null,
+              "url": null
+            }
+          },
+          {
+            "id": 11,
+            "label": "academics",
+            "sort": 3,
+            "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+            "menuable_id": 19,
+            "parent_id": null,
+            "menu_id": 1,
+            "created_at": "2022-11-29 08:43:16",
+            "updated_at": "2022-11-29 08:43:16",
+            "children": [
+              {
+                "id": 12,
+                "label": "academic programs",
+                "sort": 1,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 4,
+                "parent_id": 11,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:16",
+                "updated_at": "2022-11-29 08:43:16",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 4,
+                  "slug": "academics/academic-programs",
+                  "url": "http://127.0.0.1:8000/academics/academic-programs"
+                }
+              },
+              {
+                "id": 13,
+                "label": "learning facilities",
+                "sort": 2,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 20,
+                "parent_id": 11,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:17",
+                "updated_at": "2022-11-29 08:43:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 20,
+                  "slug": null,
+                  "url": null
+                }
+              },
+              {
+                "id": 14,
+                "label": "online learning",
+                "sort": 3,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 21,
+                "parent_id": 11,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:17",
+                "updated_at": "2022-11-29 08:43:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 21,
+                  "slug": "academics/online-learning",
+                  "url": "http://127.0.0.1:8000/academics/online-learning"
+                }
+              },
+              {
+                "id": 15,
+                "label": "self asessment",
+                "sort": 4,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 22,
+                "parent_id": 11,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:17",
+                "updated_at": "2022-11-29 08:43:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 22,
+                  "slug": "hello-lll",
+                  "url": "http://127.0.0.1:8000/hello-lll"
+                }
+              }
+            ],
+            "menuable": {
+              "id": 19,
+              "slug": null,
+              "url": null
+            }
+          },
+          {
+            "id": 16,
+            "label": "admissions",
+            "sort": 4,
+            "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+            "menuable_id": 23,
+            "parent_id": null,
+            "menu_id": 1,
+            "created_at": "2022-11-29 08:43:17",
+            "updated_at": "2022-11-29 08:43:17",
+            "children": [
+              {
+                "id": 17,
+                "label": "how to apply",
+                "sort": 1,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 6,
+                "parent_id": 16,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:17",
+                "updated_at": "2022-11-29 08:43:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 6,
+                  "slug": "admissions/how-to-apply",
+                  "url": "http://127.0.0.1:8000/admissions/how-to-apply"
+                }
+              },
+              {
+                "id": 27,
+                "label": "Self Assesment",
+                "sort": 1,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 22,
+                "parent_id": 16,
+                "menu_id": 1,
+                "created_at": "2022-11-29 09:26:07",
+                "updated_at": "2022-11-29 09:26:07",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 22,
+                  "slug": "hello-lll",
+                  "url": "http://127.0.0.1:8000/hello-lll"
+                }
+              },
+              {
+                "id": 28,
+                "label": "Frequently Aske...",
+                "sort": 1,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 25,
+                "parent_id": 16,
+                "menu_id": 1,
+                "created_at": "2022-11-29 09:26:17",
+                "updated_at": "2022-11-29 09:26:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 25,
+                  "slug": null,
+                  "url": null
+                }
+              },
+              {
+                "id": 29,
+                "label": "Campus Life",
+                "sort": 1,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 28,
+                "parent_id": 16,
+                "menu_id": 1,
+                "created_at": "2022-11-29 09:26:27",
+                "updated_at": "2022-11-29 09:26:27",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 28,
+                  "slug": "campus-life",
+                  "url": "http://127.0.0.1:8000/campus-life"
+                }
+              },
+              {
+                "id": 18,
+                "label": "why choose us",
+                "sort": 2,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 24,
+                "parent_id": 16,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:17",
+                "updated_at": "2022-11-29 08:43:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 24,
+                  "slug": null,
+                  "url": null
+                }
+              },
+              {
+                "id": 19,
+                "label": "frequently asked questions",
+                "sort": 3,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 25,
+                "parent_id": 16,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:17",
+                "updated_at": "2022-11-29 08:43:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 25,
+                  "slug": null,
+                  "url": null
+                }
+              },
+              {
+                "id": 20,
+                "label": "important dates",
+                "sort": 4,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 26,
+                "parent_id": 16,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:17",
+                "updated_at": "2022-11-29 08:43:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 26,
+                  "slug": null,
+                  "url": null
+                }
+              }
+            ],
+            "menuable": {
+              "id": 23,
+              "slug": null,
+              "url": null
+            }
+          },
+          {
+            "id": 21,
+            "label": "news & stories",
+            "sort": 5,
+            "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+            "menuable_id": 27,
+            "parent_id": null,
+            "menu_id": 1,
+            "created_at": "2022-11-29 08:43:17",
+            "updated_at": "2022-11-29 08:43:17",
+            "children": [
+              
+            ],
+            "menuable": {
+              "id": 27,
+              "slug": null,
+              "url": null
+            }
+          },
+          {
+            "id": 22,
+            "label": "campus life",
+            "sort": 6,
+            "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+            "menuable_id": 28,
+            "parent_id": null,
+            "menu_id": 1,
+            "created_at": "2022-11-29 08:43:17",
+            "updated_at": "2022-11-29 08:43:17",
+            "children": [
+              {
+                "id": 23,
+                "label": "athletics & recreation",
+                "sort": 1,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 29,
+                "parent_id": 22,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:17",
+                "updated_at": "2022-11-29 08:43:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 29,
+                  "slug": "hello",
+                  "url": "http://127.0.0.1:8000/hello"
+                }
+              },
+              {
+                "id": 24,
+                "label": "residence & housing",
+                "sort": 1,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 30,
+                "parent_id": 22,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:17",
+                "updated_at": "2022-11-29 08:43:17",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 30,
+                  "slug": null,
+                  "url": null
+                }
+              },
+              {
+                "id": 25,
+                "label": "student goverment",
+                "sort": 1,
+                "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+                "menuable_id": 31,
+                "parent_id": 22,
+                "menu_id": 1,
+                "created_at": "2022-11-29 08:43:18",
+                "updated_at": "2022-11-29 08:43:18",
+                "menu_items": [
+                  
+                ],
+                "menuable": {
+                  "id": 31,
+                  "slug": null,
+                  "url": null
+                }
+              }
+            ],
+            "menuable": {
+              "id": 28,
+              "slug": "campus-life",
+              "url": "http://127.0.0.1:8000/campus-life"
+            }
+          },
+          {
+            "id": 26,
+            "label": "contact us",
+            "sort": 7,
+            "menuable_type": "Delgont\\Cms\\Models\\Post\\Post",
+            "menuable_id": 2,
+            "parent_id": null,
+            "menu_id": 1,
+            "created_at": "2022-11-29 08:43:18",
+            "updated_at": "2022-11-29 08:43:18",
+            "children": [
+              
+            ],
+            "menuable": {
+              "id": 2,
+              "slug": "contact-us",
+              "url": "http://127.0.0.1:8000/contact-us"
+            }
+          }
+        ]
+    }
+}
